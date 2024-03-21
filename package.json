@@ -1,0 +1,34 @@
+{
+  "name": "ton-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "RunBot": "npx ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@orbs-network/ton-access": "^2.3.3",
+    "@ton/core": "^0.56.1",
+    "@ton/crypto": "^3.2.0",
+    "@ton/ton": "^13.11.1",
+    "@tonclient/core": "^1.30.0",
+    "buffer": "^6.0.3",
+    "claudia-bot-builder": "^4.5.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1",
+    "grammy": "^1.21.1",
+    "ky": "^1.2.2",
+    "node-telegram-bot-api": "^0.65.1",
+    "tonweb": "^0.0.64"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.28",
+    "@types/node-telegram-bot-api": "^0.64.4",
+    "typescript": "^5.4.2"
+  }
+}
